@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>AlmondHost｜杏仁託管</title>
+    <link rel="icon" href="./favicon.jpg" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
+    <meta content="杏仁託管 | AlmondHost 試營運" name="description" >
+    <meta content="" name="keywords" >
+    <meta content="" name="author" >
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="css/mdb.min.css" rel="stylesheet" type="text/css" id="mdb" >
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" >
+    <link href="css/style.css" rel="stylesheet" type="text/css" >
+    <link href="css/coloring.css" rel="stylesheet" type="text/css" >
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-07.css" rel="stylesheet" type="text/css" >
+    <!-- countdown -->
+    <link id="colors" href="css/jquery.countdown.css" rel="stylesheet" type="text/css" >
+</head>
+
+<body class="dark-scheme">
+    <div id="wrapper">
+        
+        <!-- page preloader begin -->
+        <div id="de-loader"></div>
+        <!-- page preloader close -->
+
+        <!-- header begin -->
+        <header class="transparent has-topbar">
+            <div id="topbar" class="text-light">
+                <div class="container">
+                    <div class="topbar-left xs-hide">
+                    </div>
+                
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="de-flex sm-pt10">
+                            <div class="de-flex-col">
+                                <div class="de-flex-col">
+                                    <!-- logo begin -->
+                                    <div id="logo">
+                                        <a href="index.html">
+                                            <img class="logo-main" src="./images/logo.png" alt="" height="60px">
+                                            <img class="logo-mobile" src="images/logo.png" alt="" >
+                                        </a>
+                                    </div>
+                                    <!-- logo close -->
+                                </div>
+                            </div>
+                            <div class="de-flex-col header-col-mid">
+                                <ul id="mainmenu">
+                                    <li><a class="menu-item" href="index.html">首頁</a>
+                                        <li><a class="menu-item" onclick="return false;" href="#">暢銷系列</a>
+                                            <ul>
+                                                <li><a class="menu-item" href="https://store.is-tw.com">試營運</a>
+                                            </ul>
+                                        </li>
+                                    <li><a class="menu-item" target="_blank" href="https://store.is-tw.com">官方商店</a>
+                                    <li><a class="menu-item" target="_blank" href="https://panel.is-tw.com">控制面板</a></li>
+                                    <li><a class="menu-item" target="_blank" href="https://status.is-tw.com/">狀態頁面</a></li>
+                                    <li><a class="menu-item" target="_blank" href="https://discord.gg/FvmAZMvzDA">Discord</a></li>
+                                </ul>
+                            </div>
+                            <div class="de-flex-col">
+                                <div class="menu_side_area">
+                                    <a href="https://store.is-tw.com" class="btn-main">立即購買</a>
+                                    <span id="menu-btn"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header close -->
+        <!-- content begin -->
+        <div class="no-bottom no-top" id="content">
+            <div id="top"></div>
+            <section id="section-hero" class="vertical-center" aria-label="section" data-bgimage='url(images/background/bg.jpg) top #101224'>
+                <div class="container">
+                    <div class="spacer-double sm-hide"></div>
+                    <div class="row align-items-center">
+                        <div class="col-lg-7">
+                            <h4 class="id-color">試營運</h4>
+                            <h1>Discord 機器人託管</h1>
+                            <h3 style="color: gray;">趕緊加入 Discord 群組購買伺服器啟動你的機器人！</h3>
+                            <div class="spacer-single"></div>
+                            <a target="_blank" href="https://discord.gg/FvmAZMvzDA" class="btn-main">加入 Discord</a>
+                            <div class="spacer-10"></div>
+                        </div>
+                        <div class="col-lg-5 text-center">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="no-top no-bottom" aria-label="section">
+                <div class="container">
+                    <div class="ow">
+                        <div class="col-md-12 wow fadeInUp">
+                            <div id="owl-logo" class="logo-carousel owl-carousel owl-theme">
+                                <!-- <img src="images/logo/1.png" class="img-fluid" alt=""> -->
+                                <!-- <img src="images/logo/2.png" class="img-fluid" alt=""> -->
+                                <img src="images/logo/3.png" class="img-fluid" alt="">
+                                <!-- <img src="images/logo/4.png" class="img-fluid" alt=""> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="section-pricing">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-3">
+                            <div class="text-center">
+                                <h5 class="s2">方案計劃</h5>
+                                <h2><span class="id-color">簡單、快速</span><br>建立專屬於你的付費伺服器</h2>
+                                <div class="spacer-20"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row wow fadeInUp">
+                        <div class="col text-center">
+                            <div class="switch-set">
+                                <div>月繳</div>
+                                <div><input id="sw-1" class="switch" type="checkbox" ></div>
+                                <div>季繳</div>
+                                <div class="spacer-20"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row de_pricing-tables shadow-soft g-0 wow fadeInUp">
+                        <div class="col-xl-3 col-lg-6">
+                            <div class="de_pricing-table type-2">
+                                <div class="d-head">
+                                    <h3>TW-D-1</h3>
+                                </div>
+                                <div class="d-price">
+                                    <h4 class="opt-1">NT$10<span>/月</span></h4>
+                                    <h4 class="opt-2">NT$29<span>/月</span></h4>
+                                </div>
+                                <div class="d-group">
+                                    <h4>方案配置</h4>
+                                    <ul class="d-list">
+                                        <li>50% CPU</li>
+                                        <li>128 MiB 記憶體</li>
+                                        <li>2048 MiB 儲存空間</li>
+                                        <li>備份空間: 1個</li>
+                                    </ul>
+                                </div>
+                                <div class="d-group">
+                                    <h4>產品規格</h4>
+                                    <ul class="d-list">
+                                        <li>Intel® Core™ i5-4430</li>
+                                    </ul>
+                                </div>
+                                <div class="d-action">
+                                    <a href="https://store.is-tw.com/shop/tw-d-1/" class="btn-main opt-1 w-100">前往購買</a>
+                                    <a href="https://store.is-tw.com/shop/tw-d-1/" class="btn-main opt-2 w-100">前往購買</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6">
+                            <div class="de_pricing-table type-2">
+                                <div class="d-head">
+                                    <h3>TW-D-2</h3>
+                                </div>
+                                <div class="d-price">
+                                    <h4 class="opt-1">NT$20<span>/月</span></h4>
+                                    <h4 class="opt-2">NT$49<span>/月</span></h4>
+                                </div>
+                                <div class="d-group">
+                                    <h4>方案配置</h4>
+                                    <ul class="d-list">
+                                        <li>50% CPU</li>
+                                        <li>256 MiB 記憶體</li>
+                                        <li>5120 MiB 儲存空間</li>
+                                        <li>備份空間: 1個</li>
+                                    </ul>
+                                </div>
+                                <div class="d-group">
+                                    <h4>產品規格</h4>
+                                    <ul class="d-list">
+                                        <li>Intel® Core™ i5-4430</li>
+                                    </ul>
+                                </div>
+                                <div class="d-action">
+                                    <a href="https://store.is-tw.com/shop/tw-d-2/" class="btn-main opt-1 w-100">前往購買</a>
+                                    <a href="https://store.is-tw.com/shop/tw-d-2/" class="btn-main opt-2 w-100">前往購買</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-6">
+                            <div class="de_pricing-table type-2">
+                                <div class="d-recommend">推薦方案</div>
+                                <div class="d-head">
+                                    <h3>TW-D-3</h3>
+                                </div>
+                                <div class="d-price">
+                                    <h4 class="opt-1">NT$40<span>/月</span></h4>
+                                    <h4 class="opt-2">NT$109<span>/月</span></h4>
+                                </div>
+                                <div class="d-group">
+                                    <h4>方案配置</h4>
+                                    <ul class="d-list">
+                                        <li>100% CPU</li>
+                                        <li>512 MiB 記憶體</li>
+                                        <li>10240 MiB 儲存空間</li>
+                                        <li>備份空間: 1個</li>
+                                    </ul>
+                                </div>
+                                <div class="d-group">
+                                    <h4>產品規格</h4>
+                                    <ul class="d-list">
+                                        <li>Intel® Core™ i5-4430</li>
+                                    </ul>
+                                </div>
+                                <div class="d-action">
+                                    <a href="https://store.is-tw.com/shop/tw-d-3/" class="btn-main opt-1 w-100">前往購買</a>
+                                    <a href="https://store.is-tw.com/shop/tw-d-3/" class="btn-main opt-2 w-100">前往購買</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-6">
+                            <div class="de_pricing-table type-2">
+                                <div class="d-head">
+                                    <h3>TW-D-P</h3>
+                                </div>
+                                <div class="d-price">
+                                    <h4 class="opt-1">NT$60<span>/月</span></h4>
+                                    <h4 class="opt-2">NT$159<span>/月</span></h4>
+                                </div>
+                                <div class="d-group">
+                                    <h4>方案配置</h4>
+                                    <ul class="d-list">
+                                        <li>100% CPU</li>
+                                        <li>1024 MiB 記憶體</li>
+                                        <li>15000 MiB 儲存空間</li>
+                                        <li>備份空間: 1個</li>
+                                    </ul>
+                                </div>
+                                <div class="d-group">
+                                    <h4>產品規格</h4>
+                                    <ul class="d-list">
+                                        <li>Intel® Core™ i5-4430</li>
+                                    </ul>
+                                </div>
+                                <div class="d-action">
+                                    <a href="https://store.is-tw.com/shop/tw-d-p/" class="btn-main opt-1 w-100">前往購買</a>
+                                    <a href="https://store.is-tw.com/shop/tw-d-p/" class="btn-main opt-2 w-100">前往購買</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+            <section id="section-steps" class="no-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-3 text-center">
+                            <h2>5 步驟</h2>
+                            <p class="lead">架設專屬於您的付費伺服器</p>
+                            <div class="spacer-20"></div>
+                        </div>
+                        <div class="col-md-12 wow fadeInUp">
+                            <div class="container-timeline">
+                                <ul>
+                                    <li>
+                                        <h4>選擇方案</h4>
+                                        <p>選擇需要的付費方案</p>
+                                    </li>
+                                    <li>
+                                        <h4>下單</h4>
+                                        <p>加入購物車並下單</p>
+                                    </li>
+                                    <li>
+                                        <h4>付款</h4>
+                                        <p>透過四大超商條碼、7-11代碼、全家代碼、ATM轉帳</p>
+                                    </li>
+                                    <li>
+                                        <h4>聯絡客服</h4>
+                                        <p>加入dc開啟客服單與客服人員確認及開通</p>
+                                    </li>
+                                    <li>
+                                        <h4>啟動</h4>
+                                        <p>開通完畢後，到控制面板啟動您的付費伺服器，開始使用！</p>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            
+            <section id="section-pricing">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-3">
+                            <div class="text-center">
+                                <h5 class="s2">方案計劃</h5>
+                                <h2><span class="id-color">即將上架</span><br>i7-12700KF 台灣高效能主機</h2>
+                                <div class="spacer-20"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row wow fadeInUp">
+                        <div class="col text-center">
+                            <div class="switch-set">
+                                <div>月繳</div>
+                                <div><input id="sw-2" class="switch" type="checkbox" ></div>
+                                <div>季繳</div>
+                                <div class="spacer-20"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div onclick="return false;" class="row de_pricing-tables shadow-soft g-0 wow fadeInUp">
+                        <div class="col-xl-3 col-lg-6">
+                            <div class="de_pricing-table type-2">
+                                <div class="d-head">
+                                    <h3>TW-M-1</h3>
+                                </div>
+                                <div class="d-price">
+                                    <h4 class="opt-3">NT$129<span>/月</span></h4>
+                                    <h4 class="opt-4">NT$379<span>/月</span></h4>
+                                </div>
+                                <div class="d-group">
+                                    <h4>方案配置</h4>
+                                    <ul class="d-list">
+                                        <li>100% CPU</li>
+                                        <li>2048 MiB 記憶體</li>
+                                        <li>10240 MiB 儲存空間</li>
+                                    </ul>
+                                </div>
+                                <div class="d-group">
+                                    <h4>產品規格</h4>
+                                    <ul class="d-list">
+                                        <li>Intel® Core™ i7-12700KF</li>
+                                        <li>美光 DDR4 3200MHz</li>
+                                        <li>美光 Gen4 NVMe SSD</li>
+                                    </ul>
+                                </div>
+                                <div class="d-action">
+                                    <a href="#" class="btn-main opt-1 w-100">前往購買</a>
+                                    <a href="#" class="btn-main opt-2 w-100">前往購買</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-6">
+                            <div class="de_pricing-table type-2">
+                                <div class="d-head">
+                                    <h3>TW-M-2</h3>
+                                </div>
+                                <div class="d-price">
+                                    <h4 class="opt-3">NT$259<span>/月</span></h4>
+                                    <h4 class="opt-4">NT$739<span>/月</span></h4>
+                                </div>
+                                <div class="d-group">
+                                    <h4>方案配置</h4>
+                                    <ul class="d-list">
+                                        <li>200% CPU</li>
+                                        <li>4096 MiB 記憶體</li>
+                                        <li>20480 MiB 儲存空間</li>
+                                    </ul>
+                                </div>
+                                <div class="d-group">
+                                    <h4>產品規格</h4>
+                                    <ul class="d-list">
+                                        <li>Intel® Core™ i7-12700KF</li>
+                                        <li>美光 DDR4 3200MHz</li>
+                                        <li>美光 Gen4 NVMe SSD</li>
+                                    </ul>
+                                </div>
+                                <div class="d-action">
+                                    <a href="#" class="btn-main opt-1 w-100">前往購買</a>
+                                    <a href="#" class="btn-main opt-2 w-100">前往購買</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-6">
+                            <div class="de_pricing-table type-2">
+                                <div class="d-recommend">推薦方案</div>
+                                <div class="d-head">
+                                    <h3>TW-M-3</h3>
+                                </div>
+                                <div class="d-price">
+                                    <h4 class="opt-3">NT$429<span>/月</span></h4>
+                                    <h4 class="opt-4">NT$1199<span>/月</span></h4>
+                                </div>
+                                <div class="d-group">
+                                    <h4>方案配置</h4>
+                                    <ul class="d-list">
+                                        <li>400% CPU</li>
+                                        <li>8192 MiB 記憶體</li>
+                                        <li>40960 MiB 儲存空間</li>
+                                    </ul>
+                                </div>
+                                <div class="d-group">
+                                    <h4>產品規格</h4>
+                                    <ul class="d-list">
+                                        <li>Intel® Core™ i7-12700KF</li>
+                                        <li>美光 DDR4 3200MHz</li>
+                                        <li>美光 Gen4 NVMe SSD</li>
+                                    </ul>
+                                </div>
+                                <div class="d-action">
+                                    <a href="#" class="btn-main opt-1 w-100">前往購買</a>
+                                    <a href="#" class="btn-main opt-2 w-100">前往購買</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-6">
+                            <div class="de_pricing-table type-2">
+                                <div class="d-head">
+                                    <h3>TW-M-C</h3>
+                                </div>
+                                <div class="d-price">
+                                    <h4 class="opt-3">NT$90<span>/月</span></h4>
+                                    <h4 class="opt-4">NT$90<span>/月</span></h4>
+                                </div>
+                                <div class="d-group">
+                                    <h4>方案配置</h4>
+                                    <ul class="d-list">
+                                        <li>自訂 CPU</li>
+                                        <li>自訂 記憶體</li>
+                                        <li>自訂 儲存空間</li>
+                                    </ul>
+                                </div>
+                                <div class="d-group">
+                                    <h4>產品規格</h4>
+                                    <ul class="d-list">
+                                        <li>Intel® Core™ i7-12700KF</li>
+                                        <li>美光 DDR4 3200MHz</li>
+                                        <li>美光 Gen4 NVMe SSD</li>
+                                    </ul>
+                                </div>
+                                <div class="d-action">
+                                    <a href="#" class="btn-main opt-1 w-100">前往購買</a>
+                                    <a href="#" class="btn-main opt-2 w-100">前往購買</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+            <section id="section-testimonial" class="no-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 offset-lg-3 text-center">
+                            <h5 class="s2">客戶評價</h5>
+                            <h2>來看看我們的 <span class="id-color">客戶評價</span></h2>
+                            <div class="spacer-20"></div>
+                        </div>
+                        <div style="text-align:center;">
+                            <h3>目前沒有評價....</h3>
+                            <p>加入我們你的評價就會出現在我們官方網站！！</p>
+                        </div>
+                        <!-- <div class="owl-carousel owl-theme wow fadeInUp" id="testimonial-carousel">
+                            <div class="item">
+                                <div class="de_testi type-2">
+                                    <blockquote>
+                                        <h4>Excellent Hosting</h4>
+                                        <p>Great support, like i have never seen before. Thanks to the support team, they are very helpfull. This company provide customers great solution, that makes them best.</p>
+                                        <div class="de_testi_by">
+                                            <img alt="" class="rounded-circle" src="images/people/1.jpg"> <span>John, Pixar Studio</span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="de_testi type-2">
+                                    <blockquote>
+                                        <h4>Excellent Hosting</h4>
+                                        <p>Great support, like i have never seen before. Thanks to the support team, they are very helpfull. This company provide customers great solution, that makes them best.</p>
+                                        <div class="de_testi_by">
+                                            <img alt="" class="rounded-circle" src="images/people/2.jpg"> <span>Sarah, Microsoft</span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="de_testi type-2">
+                                    <blockquote>
+                                        <h4>Excellent Hosting</h4>
+                                        <p>Great support, like i have never seen before. Thanks to the support team, they are very helpfull. This company provide customers great solution, that makes them best.</p>
+                                        <div class="de_testi_by">
+                                            <img alt="" class="rounded-circle" src="images/people/3.jpg"> <span>Michael, Apple</span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                          </div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="section-banner" class="no-bottom no-top" data-bgcolor="#15182d">
+                <div class="container">
+                    <div class="row align-items-center g-custom-x">
+                        <div class="col-lg-4 d-none d-lg-block d-xl-block  text-center">
+                            <p style="background-image: url('https://i.imgur.com/tHI5dtL.png');">
+                            <hr>
+                            <h2>我們開放的<span class="color-gradient">付款方式</span></h2>
+                            <hr>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="p-sm-30 pb-sm-0 mb-sm-0">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div class="p-sm-30">
+                                <!-- <div class="spacer-20 sm-hide"></div>
+                                <img src="./images/payments-logo/smilepay.png" width="80px">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+                                <img src="./images/payments-logo/7-11.png" width="80px">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <img src="./images/payments-logo/familymart.png" width="80px">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <img src="./images/payments-logo/hi-life.png" width="80px">
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <img src="./images/payments-logo/ok.png" width="80px">
+                                <div class="spacer-half"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- content close -->
+        <a href="#" id="back-to-top"></a>
+        <!-- footer begin -->
+        <footer>
+            <div class="container" style="background-size: cover; background-repeat: no-repeat;">
+                <div class="row gx-5" style="background-size: cover; background-repeat: no-repeat;">
+                    <div class="col-lg-4" style="background-size: cover; background-repeat: no-repeat;">
+                        <img src="images/logo.png" alt="" height="96px">
+                        <div class="spacer-20" style="background-size: cover; background-repeat: no-repeat;"></div>
+                    </div>
+                    <div class="col-lg-8" style="background-size: cover; background-repeat: no-repeat;">
+                        <div class="row" style="background-size: cover; background-repeat: no-repeat;">
+                            <div class="col-lg-6 col-sm-4" style="background-size: cover; background-repeat: no-repeat;">
+                                <div class="widget" style="background-size: cover; background-repeat: no-repeat;">
+                                    <h5>商品分類</h5>
+                                    <ul>
+                                        <li>
+                                            <a target="_blank" href="https://store.is-tw.com/pcat/d-host/">Discord | 臺灣機器人主機</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onclick="return false;">臺灣｜高效能主機 (即將上架)</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="widget" style="background-size: cover; background-repeat: no-repeat;">
+                                    <h5>加入我們</h5>
+                                    <div class="social-icons">
+                                        <a href="https://discord.gg/FvmAZMvzDA"><img src="./footer_icon/discord.png" style="width: 30px;"></a>
+                                        <a href="https://instagram.com/tw_almondhost/"><img src="./footer_icon/ig.png" style="width: 30px;"></a>
+                                        <a href="mailto:support@is-tw.com"><img src="./footer_icon/mail.png" style="width: 30px;"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6" style="background-size: cover; background-repeat: no-repeat;">
+                                <div class="widget" style="background-size: cover; background-repeat: no-repeat;">
+                                    <h5>常用連結</h5>
+                                    <ul>
+                                        <li>
+                                            <a target="_blank" href="https://store.is-tw.com/">官方商店</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://panel.is-tw.com/">控制面板</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://docs.is-tw.com/">官方文檔</a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://status.is-tw.com/">狀態頁面</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subfooter" style="background-size: cover; background-repeat: no-repeat;">
+                <div class="container" style="background-size: cover; background-repeat: no-repeat;">
+                    <div class="row" style="background-size: cover; background-repeat: no-repeat;">
+                        <div class="col-lg-6 col-sm-6" style="background-size: cover; background-repeat: no-repeat;">
+                            <p>&copy; Copyright <script>document.write(new Date().getFullYear())</script> AlmondHost | 杏仁託管</p>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 text-lg-end text-sm-start" style="background-size: cover; background-repeat: no-repeat;">
+                            <ul class="menu-simple">
+                                <li>
+                                    <a href="https://docs.is-tw.com/docs/documents/terms-of-service">服務條款</a>
+                                </li>
+                                <li>
+                                    <a href="https://docs.is-tw.com/docs/documents/privacy-policy">隱私權政策</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer close -->
+    </div>
+
+
+    
+
+
+    
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/designesia.js"></script>
+
+    <script>
+    jQuery(document).ready(function() {
+        $(function() {
+            // jquery typed plugin
+            $(".typed").typed({
+                stringsElement: $('.typed-strings'),
+                typeSpeed: 100,
+                backDelay: 500,
+                loop: true,
+                contentType: 'html', // or text
+                // defaults to false for infinite loop
+                loopCount: false,
+                callback: function() { null; },
+                resetCallback: function() { newTyped(); }
+            });
+        });
+    });
+    </script>
+
+    <!-- COOKIES PLUGIN 
+    <script>
+      $(document).ready(function() {
+        $.cookit({
+          messageColor: '#fff',
+          linkColor: '#38b1ed',
+          buttonColor: '#38b1ed',
+          messageText: "This website uses <b>cookies</b> to ensure you get the best experience on our website.",
+          linkText: "Learn more",
+          linkUrl: "index.html",
+          buttonText: "I accept",
+        });
+      });
+    </script> -->
+
+</body>
+
+</html>
